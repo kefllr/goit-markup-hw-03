@@ -1,0 +1,143 @@
+body{
+    font-family: Roboto, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.32px;
+background-color:  #FFF;
+color: #434455 ;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+.link .logo-name{
+    color: #2E2F42;
+}
+.link{
+    color: #4d5ae5 ;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;
+}
+.link-nav{
+    color: #2E2F42;
+    font-weight: 500;
+}
+.link-nav:hover,
+.link-nav:focus{
+    color: #404BBF;
+    text-decoration: underline;
+}
+.title{
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+    color: #FFF;
+}
+.button{
+    cursor: pointer;
+    color: #FFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+button:hover,
+button:focus{
+    background-color: #404BBF;
+}
+.link-adr{
+    color: #434455 ;
+    font-weight: 500;
+}
+.link-adr:hover,
+.link-adr:focus{
+    color: #404BBF;
+    text-decoration: underline;
+}
+.stud-sect{
+    background-color: #2e2f42;
+}
+.title-advan{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42 ;
+
+}
+.our-team{
+    background-color: #F4F4FD ;
+}
+.title-team{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.team{
+    background-color: #FFFFFF ;
+}
+.names{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42 ;
+}
+.work{
+    font-size: 16px;
+    color:  #434455;
+}
+.title-port{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.portfolio{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.text-port{
+    color:  #434455;
+}
+.footer{
+    background-color: #2e2f42;
+
+}
+.text-foot{
+    color: #F4F4FD;
+}
+.link-two{
+    color: #4d5ae5 ;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;
+}
+.logo-name-two{
+    color: #f4f4fd;
+}
+.adr{
+    font-style: normal;
+}
