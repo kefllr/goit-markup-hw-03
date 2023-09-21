@@ -26,7 +26,12 @@ p, h1, h2, h3, h4, h5, h6{
     margin-top: 0;
     margin-bottom: 0;
 }
-
+img{
+    display: block;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
 .container{
     width: 1470px;
     padding-left: 15px;
@@ -39,15 +44,17 @@ p, h1, h2, h3, h4, h5, h6{
     gap: 76px;
     justify-content: center;
     align-items: center;
-    padding: 25.5px 0;
+    padding: 0 15px;
+    width:1440px;
 }
 .cont-stud-sect{
-    padding: 188px 0;
+    
 }
 .navig{
-
+    align-items: center;
     display: flex;
     gap: 76px;
+    padding: 24px 0;
 }
 .list-nav{
     display: flex;
@@ -58,7 +65,9 @@ p, h1, h2, h3, h4, h5, h6{
     display: flex;
     gap: 40px;
 }
-
+.logo{
+    margin-right: 76px;
+}
 .link .logo-name{
     color: #2E2F42;
 }
@@ -88,6 +97,7 @@ p, h1, h2, h3, h4, h5, h6{
     text-align: center;
     color: #FFF;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 .button{
     cursor: pointer;
@@ -98,6 +108,9 @@ p, h1, h2, h3, h4, h5, h6{
     letter-spacing: 0.04em;
     padding: 16px 32px;
     display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 
 }
 button:hover,
@@ -115,7 +128,7 @@ button:focus{
 }
 .stud-sect{
     background-color: #2e2f42;
-    width: 1470px;
+    padding: 188px 0;
 }
 .visually-hidden {
     position: absolute;
