@@ -15,9 +15,10 @@
 <body>
 
     <header>
-        <nav>
+        <div class="container cont-header">
+        <nav class="navig">
             <a href="./index.html" class="link">Web<span class="logo-name">Studio</span></a>
-            <ul>
+            <ul class="list-nav">
                 <li>
                     <a href="./index.html" class="link-nav">Studio</a>
                 </li>
@@ -30,7 +31,7 @@
             </ul>
         </nav>
         <address class="adr">
-            <ul>
+            <ul class="list-adr">
                 <li>
                     <a href="mailto:info@devstudio.com" class="link-adr">info@devstudio.com</a>
                 </li>
@@ -38,16 +39,22 @@
                     <a href="tel:+110001111111" class="link-adr">+11 (000) 111-11-11</a>
                 </li>
             </ul>
-        </address> 
+        </address>
+        </div> 
     </header>
 
     <main>
-        <section class="stud-sect">
-            <h1 class="title">Effective Solutions for Your Business</h1>
-            <button type="button" class="button">Order Service</button>
+      
+        <section class="stud-sect"> 
+            <div class="container  cont-stud-sect"> 
+                <h1 class="title">Effective Solutions for Your Business</h1>
+                <button type="button" class="button">Order Service</button>
+            </div>
         </section>
+    
         <section class="advantages">
-            <h2 hidden>Advantages</h2>
+            <div class="container">
+            <h2 class="visually-hidden">Advantages</h2>
 
             <ul>
                 <li>
@@ -80,7 +87,7 @@
                     </p>
                 </li>
             </ul>
-           
+        </div>
         </section>
 
         <section class="our-team">
