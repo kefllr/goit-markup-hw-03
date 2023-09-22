@@ -61,11 +61,6 @@ img{
     display: flex;
     gap: 40px;
     margin-right: auto;
-    padding: 24px 0;
-}
-.item-nav{
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .list-adr{
     display: flex;
@@ -89,6 +84,7 @@ img{
 .link-nav{
     color: #2E2F42;
     font-weight: 500;
+    padding: 24px 0;
 }
 .link-nav:hover,
 .link-nav:focus{
