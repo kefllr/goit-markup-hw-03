@@ -153,9 +153,6 @@ button:focus{
     display: flex;
     gap: 24px;
 }
-.item-advan{
-    width:calc((100% - 72px) / 4);
-}
 .title-advan{
     font-weight: 500;
     font-size: 20px;
