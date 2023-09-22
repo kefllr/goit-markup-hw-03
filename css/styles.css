@@ -56,12 +56,14 @@ img{
     align-items: center;
     display: flex;
     gap: 76px;
-    padding: 24px 0;
 }
 .list-nav{
     display: flex;
     gap: 40px;
     margin-right: auto;
+}
+.item-nav{
+    padding: 24px 0;
 }
 .list-adr{
     display: flex;
@@ -153,7 +155,7 @@ button:focus{
     display: flex;
     gap: 24px;
 }
-.item-advan-first{
+.item-advan{
     width: calc((100%-72)/4);
 }
 .title-advan{
@@ -207,6 +209,7 @@ button:focus{
     font-size: 16px;
     color:  #434455;
     text-align: center;
+    margin-bottom: 8px 
 }
 .title-port{
     font-size: 36px;
@@ -215,6 +218,12 @@ button:focus{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+    
+}
+.our-portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfolio{
     font-weight: 500;
@@ -222,10 +231,20 @@ button:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 16px;
 }
 .text-port{
     color:  #434455;
 }
+.list-port{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.cont-port-card{
+    padding: 0px 16px;
+}
+
 .footer{
     background-color: #2e2f42;
 
