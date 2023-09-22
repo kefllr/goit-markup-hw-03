@@ -61,6 +61,7 @@ img{
     display: flex;
     gap: 40px;
     margin-right: auto;
+    padding: 24px auto;
 }
 .item-nav{
     padding-top: 24px;
