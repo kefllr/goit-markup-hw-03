@@ -113,7 +113,7 @@ img{
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
-    bottom: none;
+    border: none;
 
 }
 button:hover,
@@ -166,6 +166,11 @@ button:focus{
 }
 .our-team{
     background-color: #F4F4FD ;
+    padding: 120px 0
+}
+.cont-team{
+
+
 }
 .title-team{
     font-size: 36px;
@@ -174,9 +179,21 @@ button:focus{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .team{
     background-color: #FFFFFF ;
+}
+.list-team{
+    display: flex;
+    gap: 24px;
+}
+.item-team{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.cont-team-card{
+    padding: 32px 0;
 }
 .names{
     font-weight: 500;
@@ -184,10 +201,12 @@ button:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42 ;
+    text-align: center;
 }
 .work{
     font-size: 16px;
     color:  #434455;
+    text-align: center;
 }
 .title-port{
     font-size: 36px;
