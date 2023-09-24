@@ -27,6 +27,7 @@ p, h1, h2, h3, h4, h5, h6{
     margin-bottom: 0;
 }
 img{
+    width: 100%;
     display: block;
 }
 .header{
@@ -41,11 +42,9 @@ img{
 }
 .cont-header{
     display: flex;
-    gap: 76px;
-    justify-content: center;
     align-items: center;
     padding: 0 15px;
-    width: 1158px;
+    width: 1470px;
 }
 .cont-stud-sect{
     flex-shrink: 0;
@@ -55,19 +54,24 @@ img{
 .navig{
     align-items: center;
     display: flex;
-    gap: 76px;
+    gap: 40px;
+    padding: 24px 0;
 }
 .list-nav{
     display: flex;
     gap: 40px;
-    margin-right: auto;
+    margin-left: 76px;
 }
 .list-adr{
     display: flex;
     gap: 40px;
 }
+.adr{
+    margin-left: auto;
+}
 .logo{
     margin-right: 76px;
+    margin-left: auto;
 }
 .link .logo-name{
     color: #2E2F42;
@@ -100,6 +104,9 @@ img{
     color: #FFF;
     margin-bottom: 48px;
     max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 .button{
     cursor: pointer;
@@ -114,6 +121,8 @@ img{
     height: 56px;
     border-radius: 4px;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 button:hover,
@@ -127,11 +136,11 @@ button:focus{
 .link-adr:hover,
 .link-adr:focus{
     color: #404BBF;
-    text-decoration: underline;
 }
 .stud-sect{
     background-color: #2e2f42;
     padding: 188px 0;
+
 }
 .visually-hidden {
     position: absolute;
@@ -152,6 +161,8 @@ button:focus{
 .list-advan{
     display: flex;
     gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .item-advan{
     width: calc((100% - 72px) / 4);
@@ -168,9 +179,7 @@ button:focus{
     background-color: #F4F4FD ;
     padding: 120px 0
 }
-.cont-team{
-
-
+.cont-team{ 
 }
 .title-team{
     font-size: 36px;
@@ -188,13 +197,19 @@ button:focus{
 .list-team{
     display: flex;
     gap: 24px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .item-team{
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc((100% - 72px) / 4);
 }
 .cont-team-card{
     padding: 32px 0;
+    background-color: #fff;
 }
 .names{
     font-weight: 500;
